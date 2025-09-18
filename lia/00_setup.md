@@ -15,11 +15,7 @@ work on the project. To do so, please complete the following tasks:
    General → Repository name)
 6. Give your teammate access to the repository. (Settings →
    Collaborators and teams → Manage access)
-7. Protect your main branch. A pull request should be required before
-   merging, and 1 approval (your teammate's) should be necessary before
-   a pull request can be merged. (Settings → Branches → Add classic
-   branch protection rule → Require a pull request before merging)
-8. Create a README file with a brief description of the project and
+7. Create a README file with a brief description of the project and
    setup instructions for new team members (how to install, how to make
    changes, etc.).
 
