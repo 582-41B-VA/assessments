@@ -12,24 +12,27 @@ To make collaboration smoother and encourage code review, you will share
 your code with your teammate using GitHub's pull request workflow. Here
 are the steps to follow once you have cloned the repository:
 
-1. From your local main branch, create a local feature branch with
+1. Make sure your local main branch is up to date with the remote main
+   branch by running `git pull`.
+
+2. From your local main branch, create a local feature branch with
    `git checkout -b <branch-name>`, where `<branch-name>` corresponds to
    the name of the feature you will implement.
 
-2. Commit your changes with `git add <path>` and `git commit` (many
+3. Commit your changes with `git add <path>` and `git commit` (many
    times if necessary).
 
-3. Once your code is ready, push your commits to GitHub with
+4. Once your code is ready, push your commits to GitHub with
    `git push -u origin <branch-name>`.
 
-4. Using GitHub's web interface, create a pull request (Pull requests →
+5. Using GitHub's web interface, create a pull request (Pull requests →
    New pull request → feature branch's name → Create pull request).
 
-5. Let your teammate review your pull request. If necessary, make
+6. Let your teammate review your pull request. If necessary, make
    changes to your pull request by pushing new commits (repeat step #2
    and #3).
 
-6. Let your teammate rebase and merge your pull request (Pull requests →
+7. Let your teammate rebase and merge your pull request (Pull requests →
    pull request's name → Rebase and merge). If your pull request is
    out-of-date with main, GitHub will not let you merge it. In that
    case:
@@ -48,20 +51,20 @@ are the steps to follow once you have cloned the repository:
 
    5. Fix merge conflicts, if any.
 
-   6. Update your remote feature branch with `git push`.
+   6. Update your remote feature branch with `git push --force`.
 
-7. Delete the remote feature branch (Code → main → view all branches →
+8. Delete the remote feature branch (Code → main → view all branches →
    trash icon).
 
-8. Back in your terminal, switch to your local main branch with
+9. Back in your terminal, switch to your local main branch with
    `git checkout main`.
 
-9. Sync your local main branch with the remote main branch using
-   `git pull`.
+10. Sync your local main branch with the remote main branch using
+    `git pull`.
 
-10. Delete your local feature branch with `git branch -D <branch-name>`.
+11. Delete your local feature branch with `git branch -D <branch-name>`.
 
-11. Repeat for every feature.
+12. Repeat for every feature.
 
 ## Assessment criteria
 
