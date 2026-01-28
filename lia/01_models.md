@@ -45,7 +45,3 @@ the requirements:
   filtered by category (i.e., only show products matching the search
   query and in the selected categories). The current search query is
   shown on the results page.
-
-- The logic for sorting, filtering and searching is thoroughly tested
-  using Django's testing framework. Be sure to test how different
-  criteria interact with one another.
